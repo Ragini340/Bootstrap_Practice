@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Offcanvas Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h2>Bootstrap Offcanvas</h2>
+
+        <p>
+            Click the buttons below to open the Offcanvas components.
+        </p>
+
+
+        <!-- Open From Left -->
+        <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#leftOffcanvas"
+                aria-controls="leftOffcanvas">
+
+            Open Left Menu
+
+        </button>
+
+
+        <!-- Open From Right -->
+        <button class="btn btn-success ms-2"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#rightOffcanvas"
+                aria-controls="rightOffcanvas">
+
+            Open Right Menu
+
+        </button>
+
+
+        <!-- Left Offcanvas -->
+        <div class="offcanvas offcanvas-start"
+             tabindex="-1"
+             id="leftOffcanvas"
+             aria-labelledby="leftOffcanvasLabel">
+
+            <div class="offcanvas-header">
+
+                <h5 class="offcanvas-title"
+                    id="leftOffcanvasLabel">
+
+                    Navigation Menu
+
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                </button>
+
+            </div>
+
+
+            <div class="offcanvas-body">
+
+                <p>
+                    This menu opens from the left side.
+                </p>
+
+                <div class="list-group">
+
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+
+                        Home
+
+                    </a>
+
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+
+                        Products
+
+                    </a>
+
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+
+                        Services
+
+                    </a>
+
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+
+                        Contact
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Right Offcanvas -->
+        <div class="offcanvas offcanvas-end"
+             tabindex="-1"
+             id="rightOffcanvas"
+             aria-labelledby="rightOffcanvasLabel">
+
+            <div class="offcanvas-header">
+
+                <h5 class="offcanvas-title"
+                    id="rightOffcanvasLabel">
+
+                    User Menu
+
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                </button>
+
+            </div>
+
+
+            <div class="offcanvas-body">
+
+                <h6>User Profile</h6>
+
+                <p>
+                    Welcome to the user menu.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary">
+
+                    View Profile
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Bottom Offcanvas -->
+        <h4 class="mt-5">
+            Bottom Offcanvas
+        </h4>
+
+        <button class="btn btn-warning"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#bottomOffcanvas"
+                aria-controls="bottomOffcanvas">
+
+            Open Bottom Panel
+
+        </button>
+
+
+        <div class="offcanvas offcanvas-bottom"
+             tabindex="-1"
+             id="bottomOffcanvas"
+             aria-labelledby="bottomOffcanvasLabel">
+
+            <div class="offcanvas-header">
+
+                <h5 class="offcanvas-title"
+                    id="bottomOffcanvasLabel">
+
+                    Bottom Panel
+
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                </button>
+
+            </div>
+
+
+            <div class="offcanvas-body">
+
+                <p>
+                    This Offcanvas component opens from the bottom.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
