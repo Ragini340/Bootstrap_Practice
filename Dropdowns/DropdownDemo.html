@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Dropdown Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h2>Bootstrap Dropdowns</h2>
+
+
+        <!-- Basic Dropdown -->
+        <h4 class="mt-4">Basic Dropdown</h4>
+
+        <div class="dropdown">
+
+            <button type="button"
+                    class="btn btn-primary dropdown-toggle"
+                    data-bs-toggle="dropdown">
+
+                Select Course
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        HTML
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        CSS
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        JavaScript
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Bootstrap
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Dropdown With Divider -->
+        <h4 class="mt-5">Dropdown With Divider</h4>
+
+        <div class="dropdown">
+
+            <button type="button"
+                    class="btn btn-success dropdown-toggle"
+                    data-bs-toggle="dropdown">
+
+                User Menu
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Profile
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Settings
+                    </a>
+                </li>
+
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Logout
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Dropdown With Header -->
+        <h4 class="mt-5">Dropdown With Header</h4>
+
+        <div class="dropdown">
+
+            <button type="button"
+                    class="btn btn-warning dropdown-toggle"
+                    data-bs-toggle="dropdown">
+
+                Departments
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <h6 class="dropdown-header">
+                        Select Department
+                    </h6>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        IT
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        HR
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Finance
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Split Dropdown -->
+        <h4 class="mt-5">Split Dropdown</h4>
+
+        <div class="btn-group">
+
+            <button type="button"
+                    class="btn btn-danger">
+
+                Actions
+
+            </button>
+
+            <button type="button"
+                    class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown">
+
+                <span class="visually-hidden">
+                    Toggle Dropdown
+                </span>
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Edit
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Delete
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        View
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
