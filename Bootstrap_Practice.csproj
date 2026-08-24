@@ -36,7 +36,27 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Accordion\AccordionDemo.html" />
+    <Content Include="Alerts\AlertCloseButton.html" />
+    <Content Include="Alerts\AlertDemo.html" />
     <Content Include="Basics\BasicDemo.html" />
+    <Content Include="ButtonGroups\ButtonGroupDemo.html" />
+    <Content Include="Buttons\ButtonDemo.html" />
+    <Content Include="Cards\CardDemo.html" />
+    <Content Include="Carousel\CarouselDemo.html" />
+    <Content Include="Collapse\CollapseDemo.html" />
+    <Content Include="Colors\ColorDemo.html" />
+    <Content Include="Containers\ContainerDemo.html" />
+    <Content Include="Dropdowns\DropdownDemo.html" />
+    <Content Include="Forms\FormDemo.html" />
+    <Content Include="Grid\GridDemo.html" />
+    <Content Include="Images\ImageDemo.html" />
+    <Content Include="InputGroups\InputGroupDemo.html" />
+    <Content Include="Modals\ModalDemo.html" />
+    <Content Include="Navbar\NavbarDemo.html" />
+    <Content Include="Tables\TableDemo.html" />
+    <Content Include="Tabs\TabsDemo.html" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
