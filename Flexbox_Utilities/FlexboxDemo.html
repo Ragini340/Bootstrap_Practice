@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Flexbox Utilities</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h2>Bootstrap Flexbox Utilities</h2>
+
+        <p>
+            Bootstrap provides utility classes for creating
+            flexible and responsive layouts.
+        </p>
+
+
+        <!-- ================================= -->
+        <!-- 1. d-flex -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            1. d-flex
+        </h4>
+
+        <div class="d-flex gap-2">
+
+            <div class="bg-primary text-white p-3">
+                Item 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Item 2
+            </div>
+
+            <div class="bg-danger text-white p-3">
+                Item 3
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 2. FLEX DIRECTION -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            2. Flex Direction
+        </h4>
+
+        <div class="d-flex flex-column gap-2">
+
+            <div class="bg-primary text-white p-3">
+                Item 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Item 2
+            </div>
+
+            <div class="bg-warning text-dark p-3">
+                Item 3
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 3. JUSTIFY CONTENT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            3. justify-content
+        </h4>
+
+        <div class="d-flex justify-content-start
+                    border p-3 mb-2">
+
+            <div class="bg-primary text-white p-2">
+                Start
+            </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-center
+                    border p-3 mb-2">
+
+            <div class="bg-success text-white p-2">
+                Center
+            </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-end
+                    border p-3 mb-2">
+
+            <div class="bg-danger text-white p-2">
+                End
+            </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-between
+                    border p-3 mb-2">
+
+            <div class="bg-primary text-white p-2">
+                Left
+            </div>
+
+            <div class="bg-success text-white p-2">
+                Right
+            </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-around
+                    border p-3">
+
+            <div class="bg-primary text-white p-2">
+                One
+            </div>
+
+            <div class="bg-success text-white p-2">
+                Two
+            </div>
+
+            <div class="bg-danger text-white p-2">
+                Three
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 4. ALIGN ITEMS -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            4. align-items
+        </h4>
+
+        <div class="d-flex align-items-center
+                    border p-3"
+             style="height: 150px;">
+
+            <div class="bg-primary text-white p-3">
+                Vertically Centered
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5. ALIGN SELF -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            5. align-self
+        </h4>
+
+        <div class="d-flex border"
+             style="height: 180px;">
+
+            <div class="align-self-start
+                        bg-primary text-white p-3">
+
+                Start
+
+            </div>
+
+            <div class="align-self-center
+                        bg-success text-white p-3">
+
+                Center
+
+            </div>
+
+            <div class="align-self-end
+                        bg-danger text-white p-3">
+
+                End
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 6. FLEX GROW -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            6. flex-grow
+        </h4>
+
+        <div class="d-flex gap-2">
+
+            <div class="bg-primary text-white p-3 flex-grow-1">
+                Flex Grow 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Normal
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 7. FLEX SHRINK -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            7. flex-shrink
+        </h4>
+
+        <div class="d-flex border">
+
+            <div class="bg-primary text-white p-3 flex-shrink-1">
+                Item 1
+            </div>
+
+            <div class="bg-success text-white p-3 flex-shrink-1">
+                Item 2
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 8. FLEX WRAP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            8. flex-wrap
+        </h4>
+
+        <div class="d-flex flex-wrap gap-2">
+
+            <div class="bg-primary text-white p-3">
+                Item 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Item 2
+            </div>
+
+            <div class="bg-danger text-white p-3">
+                Item 3
+            </div>
+
+            <div class="bg-warning text-dark p-3">
+                Item 4
+            </div>
+
+            <div class="bg-info p-3">
+                Item 5
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 9. GAP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            9. Gap Utilities
+        </h4>
+
+        <div class="d-flex gap-4">
+
+            <div class="bg-primary text-white p-3">
+                Item 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Item 2
+            </div>
+
+            <div class="bg-danger text-white p-3">
+                Item 3
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 10. RESPONSIVE FLEX -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            10. Responsive Flexbox
+        </h4>
+
+        <div class="d-flex flex-column flex-md-row
+                    justify-content-between gap-3">
+
+            <div class="bg-primary text-white p-4 flex-fill">
+                Product 1
+            </div>
+
+            <div class="bg-success text-white p-4 flex-fill">
+                Product 2
+            </div>
+
+            <div class="bg-danger text-white p-4 flex-fill">
+                Product 3
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 11. COMMON NAVIGATION -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            11. Navigation Using Flexbox
+        </h4>
+
+        <div class="d-flex justify-content-between
+                    align-items-center
+                    bg-dark text-white p-3">
+
+            <div class="fw-bold">
+                My Website
+            </div>
+
+            <div class="d-flex gap-3">
+
+                <a href="#"
+                   class="text-white text-decoration-none">
+                    Home
+                </a>
+
+                <a href="#"
+                   class="text-white text-decoration-none">
+                    About
+                </a>
+
+                <a href="#"
+                   class="text-white text-decoration-none">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 12. CENTER EVERYTHING -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            12. Center Horizontally and Vertically
+        </h4>
+
+        <div class="d-flex justify-content-center
+                    align-items-center
+                    border"
+             style="height: 200px;">
+
+            <div class="bg-primary text-white p-4">
+
+                Completely Centered
+
+            </div>
+
+        </div>
+
+
+        <div class="mt-5 mb-5">
+
+            <h4>
+                Flexbox makes responsive alignment
+                much easier.
+            </h4>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
