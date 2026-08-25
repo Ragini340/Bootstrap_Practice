@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Input Groups and Floating Labels</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-4 mb-5">
+
+        <h2>Bootstrap Input Groups & Floating Labels</h2>
+
+        <p>
+            Input groups allow us to combine text, icons,
+            buttons and form controls.
+        </p>
+
+
+        <!-- ================================= -->
+        <!-- 1. BASIC INPUT GROUP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            1. Basic Input Group
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <span class="input-group-text">
+                @
+            </span>
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Username">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 2. TEXT BEFORE INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            2. Text Before Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <span class="input-group-text">
+                $
+            </span>
+
+            <input type="number"
+                   class="form-control"
+                   placeholder="Amount">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 3. TEXT AFTER INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            3. Text After Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Website">
+
+            <span class="input-group-text">
+                .com
+            </span>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 4. BOTH SIDES -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            4. Input Group on Both Sides
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <span class="input-group-text">
+                $
+            </span>
+
+            <input type="number"
+                   class="form-control"
+                   placeholder="100">
+
+            <span class="input-group-text">
+                .00
+            </span>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5. BUTTON WITH INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            5. Button with Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Search">
+
+            <button class="btn btn-primary"
+                    type="button">
+
+                Search
+
+            </button>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 6. DROPDOWN WITH INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            6. Dropdown with Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <button class="btn btn-outline-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Options
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item"
+                       href="#">
+                        Name
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item"
+                       href="#">
+                        Email
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item"
+                       href="#">
+                        Phone
+                    </a>
+                </li>
+
+            </ul>
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Search by selected option">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 7. CHECKBOX WITH INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            7. Checkbox with Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <div class="input-group-text">
+
+                <input class="form-check-input mt-0"
+                       type="checkbox"
+                       aria-label="Checkbox">
+
+            </div>
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Enter value">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 8. RADIO WITH INPUT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            8. Radio Button with Input
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <div class="input-group-text">
+
+                <input class="form-check-input mt-0"
+                       type="radio"
+                       name="radioExample"
+                       aria-label="Radio">
+
+            </div>
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Enter value">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 9. SIZING -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            9. Input Group Sizes
+        </h4>
+
+        <div class="input-group input-group-sm mb-3">
+
+            <span class="input-group-text">
+                Small
+            </span>
+
+            <input type="text"
+                   class="form-control">
+
+        </div>
+
+
+        <div class="input-group mb-3">
+
+            <span class="input-group-text">
+                Normal
+            </span>
+
+            <input type="text"
+                   class="form-control">
+
+        </div>
+
+
+        <div class="input-group input-group-lg mb-3">
+
+            <span class="input-group-text">
+                Large
+            </span>
+
+            <input type="text"
+                   class="form-control">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 10. FLOATING LABEL -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            10. Floating Label
+        </h4>
+
+        <div class="form-floating mb-3">
+
+            <input type="email"
+                   class="form-control"
+                   id="floatingEmail"
+                   placeholder="name@example.com">
+
+            <label for="floatingEmail">
+
+                Email address
+
+            </label>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 11. FLOATING PASSWORD -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            11. Floating Password
+        </h4>
+
+        <div class="form-floating mb-3">
+
+            <input type="password"
+                   class="form-control"
+                   id="floatingPassword"
+                   placeholder="Password">
+
+            <label for="floatingPassword">
+
+                Password
+
+            </label>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 12. FLOATING TEXTAREA -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            12. Floating Textarea
+        </h4>
+
+        <div class="form-floating mb-3">
+
+            <textarea class="form-control"
+                      placeholder="Leave a message"
+                      id="floatingMessage"
+                      style="height: 120px"></textarea>
+
+            <label for="floatingMessage">
+
+                Message
+
+            </label>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 13. FLOATING SELECT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            13. Floating Select
+        </h4>
+
+        <div class="form-floating mb-3">
+
+            <select class="form-select"
+                    id="floatingSelect">
+
+                <option selected>
+                    Select Course
+                </option>
+
+                <option value="1">
+                    C#
+                </option>
+
+                <option value="2">
+                    JavaScript
+                </option>
+
+                <option value="3">
+                    Bootstrap
+                </option>
+
+            </select>
+
+            <label for="floatingSelect">
+
+                Course
+
+            </label>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 14. FLOATING LABEL WITH INPUT GROUP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            14. Floating Label with Input Group
+        </h4>
+
+        <div class="input-group mb-3">
+
+            <span class="input-group-text">
+                $
+            </span>
+
+            <div class="form-floating">
+
+                <input type="number"
+                       class="form-control"
+                       id="floatingPrice"
+                       placeholder="Price">
+
+                <label for="floatingPrice">
+
+                    Price
+
+                </label>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 15. SEARCH BOX -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            15. Practical Search Box
+        </h4>
+
+        <div class="input-group">
+
+            <span class="input-group-text">
+                🔍
+            </span>
+
+            <input type="search"
+                   class="form-control"
+                   placeholder="Search products">
+
+            <button class="btn btn-primary"
+                    type="button">
+
+                Search
+
+            </button>
+
+        </div>
+
+
+        <div class="mt-5">
+
+            <h4>
+                Input groups make related controls
+                appear as one connected component.
+            </h4>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
