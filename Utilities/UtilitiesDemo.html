@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Utilities Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h2>Bootstrap Utilities</h2>
+
+
+        <!-- ================================= -->
+        <!-- 1. MARGIN -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            1. Margin Utilities
+        </h4>
+
+        <div class="bg-primary text-white m-3 p-3">
+            Margin on all sides: m-3
+        </div>
+
+        <div class="bg-success text-white mt-4 p-3">
+            Margin top: mt-4
+        </div>
+
+        <div class="bg-warning text-dark mb-4 p-3">
+            Margin bottom: mb-4
+        </div>
+
+        <div class="bg-danger text-white mx-5 p-3">
+            Horizontal margin: mx-5
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 2. PADDING -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            2. Padding Utilities
+        </h4>
+
+        <div class="bg-primary text-white p-4">
+            Padding on all sides: p-4
+        </div>
+
+        <div class="bg-success text-white pt-4 mt-3">
+            Padding top: pt-4
+        </div>
+
+        <div class="bg-warning text-dark px-5 mt-3">
+            Horizontal padding: px-5
+        </div>
+
+        <div class="bg-danger text-white py-4 mt-3">
+            Vertical padding: py-4
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 3. DISPLAY -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            3. Display Utilities
+        </h4>
+
+        <div class="d-block bg-primary text-white p-2">
+            d-block
+        </div>
+
+        <div class="d-inline bg-success text-white p-2">
+            d-inline
+        </div>
+
+        <div class="d-inline bg-warning text-dark p-2">
+            d-inline
+        </div>
+
+
+        <!-- Display None -->
+        <div class="d-none">
+
+            This content is hidden.
+
+        </div>
+
+
+        <!-- Responsive Display -->
+        <div class="d-none d-md-block bg-info p-3 mt-3">
+
+            Visible from medium screen and above.
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 4. FLEX -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            4. Flex Utilities
+        </h4>
+
+        <div class="d-flex bg-light border p-3">
+
+            <div class="p-3 bg-primary text-white">
+                Item 1
+            </div>
+
+            <div class="p-3 bg-success text-white">
+                Item 2
+            </div>
+
+            <div class="p-3 bg-danger text-white">
+                Item 3
+            </div>
+
+        </div>
+
+
+        <!-- Justify Content -->
+        <h5 class="mt-4">
+            justify-content-between
+        </h5>
+
+        <div class="d-flex justify-content-between bg-light border p-3">
+
+            <span>
+                Left
+            </span>
+
+            <span>
+                Right
+            </span>
+
+        </div>
+
+
+        <!-- Align Items -->
+        <h5 class="mt-4">
+            align-items-center
+        </h5>
+
+        <div class="d-flex align-items-center bg-light border p-3"
+             style="height: 100px;">
+
+            <div class="bg-primary text-white p-3">
+
+                Centered Vertically
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5. TEXT UTILITIES -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            5. Text Utilities
+        </h4>
+
+        <p class="text-start">
+            Left aligned text
+        </p>
+
+        <p class="text-center">
+            Center aligned text
+        </p>
+
+        <p class="text-end">
+            Right aligned text
+        </p>
+
+        <p class="fw-bold">
+            Bold text
+        </p>
+
+        <p class="fst-italic">
+            Italic text
+        </p>
+
+        <p class="text-uppercase">
+            uppercase text
+        </p>
+
+
+        <!-- ================================= -->
+        <!-- 6. BORDER -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            6. Border Utilities
+        </h4>
+
+        <div class="border p-3">
+            All borders
+        </div>
+
+        <div class="border border-primary p-3 mt-3">
+            Primary border
+        </div>
+
+        <div class="border border-danger rounded p-3 mt-3">
+            Rounded danger border
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 7. SHADOW -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            7. Shadow Utilities
+        </h4>
+
+        <div class="shadow p-4">
+
+            Normal shadow
+
+        </div>
+
+        <div class="shadow-lg p-4 mt-3">
+
+            Large shadow
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 8. POSITION -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            8. Position Utilities
+        </h4>
+
+        <div class="position-relative bg-light border"
+             style="height: 150px;">
+
+            <div class="position-absolute top-0 start-0 bg-primary text-white p-2">
+
+                Top Left
+
+            </div>
+
+            <div class="position-absolute bottom-0 end-0 bg-danger text-white p-2">
+
+                Bottom Right
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 9. WIDTH -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            9. Width Utilities
+        </h4>
+
+        <div class="bg-primary text-white w-25 p-2">
+            Width 25%
+        </div>
+
+        <div class="bg-success text-white w-50 p-2 mt-2">
+            Width 50%
+        </div>
+
+        <div class="bg-warning text-dark w-75 p-2 mt-2">
+            Width 75%
+        </div>
+
+        <div class="bg-danger text-white w-100 p-2 mt-2">
+            Width 100%
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 10. HEIGHT -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            10. Height Utilities
+        </h4>
+
+        <div class="d-flex"
+             style="height: 200px;">
+
+            <div class="bg-primary text-white h-25 p-2">
+                h-25
+            </div>
+
+            <div class="bg-success text-white h-50 p-2">
+                h-50
+            </div>
+
+            <div class="bg-danger text-white h-100 p-2">
+                h-100
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 11. VISIBILITY -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            11. Visibility Utilities
+        </h4>
+
+        <div class="visible bg-success text-white p-3">
+
+            Visible element
+
+        </div>
+
+        <div class="invisible bg-danger text-white p-3 mt-2">
+
+            Invisible element
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 12. OVERFLOW -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            12. Overflow Utilities
+        </h4>
+
+        <div class="overflow-auto border p-3"
+             style="height: 100px;">
+
+            Bootstrap provides many utility classes
+            that make styling faster and easier.
+            These utilities can be combined together
+            to create responsive layouts without writing
+            additional CSS.
+
+        </div>
+
+
+        <div class="mt-5 mb-5">
+
+            <h4>
+                Utility classes reduce the need for custom CSS.
+            </h4>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
