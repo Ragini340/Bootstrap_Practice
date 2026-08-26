@@ -8,7 +8,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Dropdown Demo</title>
+    <title>Bootstrap Dropdowns</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -18,21 +18,31 @@
 
 <body>
 
-    <div class="container mt-4">
+    <div class="container mt-4 mb-5">
 
         <h2>Bootstrap Dropdowns</h2>
 
+        <p>
+            Dropdowns display a list of actions or options
+            that can be opened from a button or link.
+        </p>
 
-        <!-- Basic Dropdown -->
-        <h4 class="mt-4">Basic Dropdown</h4>
+
+        <!-- ================================= -->
+        <!-- 1. BASIC DROPDOWN -->
+        <!-- ================================= -->
+
+        <h4 class="mt-4">
+            1. Basic Dropdown
+        </h4>
 
         <div class="dropdown">
 
-            <button type="button"
-                    class="btn btn-primary dropdown-toggle"
+            <button class="btn btn-primary dropdown-toggle"
+                    type="button"
                     data-bs-toggle="dropdown">
 
-                Select Course
+                Select Option
 
             </button>
 
@@ -40,25 +50,19 @@
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        HTML
+                        Profile
                     </a>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        CSS
+                        Settings
                     </a>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        JavaScript
-                    </a>
-                </li>
-
-                <li>
-                    <a class="dropdown-item" href="#">
-                        Bootstrap
+                        Logout
                     </a>
                 </li>
 
@@ -67,16 +71,21 @@
         </div>
 
 
-        <!-- Dropdown With Divider -->
-        <h4 class="mt-5">Dropdown With Divider</h4>
+        <!-- ================================= -->
+        <!-- 2. DROPDOWN WITH DIVIDER -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            2. Dropdown with Divider
+        </h4>
 
         <div class="dropdown">
 
-            <button type="button"
-                    class="btn btn-success dropdown-toggle"
+            <button class="btn btn-success dropdown-toggle"
+                    type="button"
                     data-bs-toggle="dropdown">
 
-                User Menu
+                Account
 
             </button>
 
@@ -109,16 +118,21 @@
         </div>
 
 
-        <!-- Dropdown With Header -->
-        <h4 class="mt-5">Dropdown With Header</h4>
+        <!-- ================================= -->
+        <!-- 3. DROPDOWN HEADER -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            3. Dropdown Header
+        </h4>
 
         <div class="dropdown">
 
-            <button type="button"
-                    class="btn btn-warning dropdown-toggle"
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button"
                     data-bs-toggle="dropdown">
 
-                Departments
+                Courses
 
             </button>
 
@@ -126,25 +140,41 @@
 
                 <li>
                     <h6 class="dropdown-header">
-                        Select Department
+                        Programming
                     </h6>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        IT
+                        C#
                     </a>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        HR
+                        JavaScript
                     </a>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        Finance
+                        Python
+                    </a>
+                </li>
+
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+
+                <li>
+                    <h6 class="dropdown-header">
+                        Frontend
+                    </h6>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Bootstrap
                     </a>
                 </li>
 
@@ -153,21 +183,293 @@
         </div>
 
 
-        <!-- Split Dropdown -->
-        <h4 class="mt-5">Split Dropdown</h4>
+        <!-- ================================= -->
+        <!-- 4. DROPDOWN ITEM STATES -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            4. Active and Disabled Items
+        </h4>
+
+        <div class="dropdown">
+
+            <button class="btn btn-primary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Options
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item active"
+                       href="#">
+
+                        Active Option
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item"
+                       href="#">
+
+                        Normal Option
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item disabled"
+                       href="#">
+
+                        Disabled Option
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5. DROPDOWN COLORS -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            5. Different Button Colors
+        </h4>
+
+        <div class="d-flex gap-2 flex-wrap">
+
+            <div class="dropdown">
+
+                <button class="btn btn-primary dropdown-toggle"
+                        data-bs-toggle="dropdown">
+
+                    Primary
+
+                </button>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 2
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="dropdown">
+
+                <button class="btn btn-success dropdown-toggle"
+                        data-bs-toggle="dropdown">
+
+                    Success
+
+                </button>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 2
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="dropdown">
+
+                <button class="btn btn-danger dropdown-toggle"
+                        data-bs-toggle="dropdown">
+
+                    Danger
+
+                </button>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Option 2
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 6. DROPUP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            6. Dropup
+        </h4>
+
+        <div class="dropup">
+
+            <button class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Open Up
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 1
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 2
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 3
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 7. DROPEND -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            7. Dropend
+        </h4>
+
+        <div class="dropend">
+
+            <button class="btn btn-warning dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Open Right
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 1
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 2
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 8. DROPSTART -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            8. Dropstart
+        </h4>
+
+        <div class="dropstart">
+
+            <button class="btn btn-info dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Open Left
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 1
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Option 2
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 9. SPLIT DROPDOWN -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            9. Split Dropdown
+        </h4>
 
         <div class="btn-group">
 
             <button type="button"
-                    class="btn btn-danger">
+                    class="btn btn-primary">
 
                 Actions
 
             </button>
 
             <button type="button"
-                    class="btn btn-danger dropdown-toggle dropdown-toggle-split"
-                    data-bs-toggle="dropdown">
+                    class="btn btn-primary dropdown-toggle
+                           dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
 
                 <span class="visually-hidden">
                     Toggle Dropdown
@@ -185,17 +487,235 @@
 
                 <li>
                     <a class="dropdown-item" href="#">
+                        Duplicate
+                    </a>
+                </li>
+
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+
+                <li>
+                    <a class="dropdown-item text-danger"
+                       href="#">
+
                         Delete
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 10. DROPDOWN IN INPUT GROUP -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            10. Dropdown with Input Group
+        </h4>
+
+        <div class="input-group">
+
+            <button class="btn btn-outline-secondary
+                           dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown">
+
+                Search By
+
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Name
                     </a>
                 </li>
 
                 <li>
                     <a class="dropdown-item" href="#">
-                        View
+                        Email
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Phone
                     </a>
                 </li>
 
             </ul>
+
+            <input type="text"
+                   class="form-control"
+                   placeholder="Enter search text">
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 11. NAVBAR DROPDOWN -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            11. Dropdown Inside Navbar
+        </h4>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand"
+                   href="#">
+
+                    My Website
+
+                </a>
+
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarExample">
+
+                    <span class="navbar-toggler-icon">
+                    </span>
+
+                </button>
+
+
+                <div class="collapse navbar-collapse"
+                     id="navbarExample">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="#">
+
+                                Home
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               role="button"
+                               data-bs-toggle="dropdown">
+
+                                Products
+
+                            </a>
+
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       href="#">
+
+                                        Laptop
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       href="#">
+
+                                        Mobile
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       href="#">
+
+                                        Accessories
+
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="#">
+
+                                Contact
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- ================================= -->
+        <!-- 12. JAVASCRIPT DROPDOWN -->
+        <!-- ================================= -->
+
+        <h4 class="mt-5">
+            12. JavaScript Controlled Dropdown
+        </h4>
+
+        <button type="button"
+                class="btn btn-dark"
+                id="jsDropdownButton">
+
+            Open Using JavaScript
+
+        </button>
+
+
+        <ul class="dropdown-menu"
+            id="jsDropdownMenu">
+
+            <li>
+                <a class="dropdown-item" href="#">
+                    JavaScript Option 1
+                </a>
+            </li>
+
+            <li>
+                <a class="dropdown-item" href="#">
+                    JavaScript Option 2
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- ================================= -->
+        <!-- END -->
+        <!-- ================================= -->
+
+        <div class="mt-5 mb-5">
+
+            <h4>
+                Dropdowns are commonly used for menus,
+                filters, account actions and navigation.
+            </h4>
 
         </div>
 
@@ -204,6 +724,29 @@
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- JavaScript Dropdown -->
+    <script>
+
+        const dropdownButton =
+            document.getElementById("jsDropdownButton");
+
+        const dropdownMenu =
+            document.getElementById("jsDropdownMenu");
+
+
+        const dropdown =
+            new bootstrap.Dropdown(dropdownButton);
+
+
+        dropdownButton.addEventListener("click", function () {
+
+            dropdown.toggle();
+
+        });
+
     </script>
 
 </body>
